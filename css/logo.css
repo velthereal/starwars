@@ -1,0 +1,7 @@
+h1 {
+	text-align: center;
+}
+h1 img {
+	width: 30%;
+	filter: drop-shadow(1px 1px 5px rgb(32, 108, 207));
+}

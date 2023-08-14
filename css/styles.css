@@ -1,19 +1,47 @@
-h1 {
-	text-align: center;
-}
-h1 img {
-	width: 30%;
-	filter: drop-shadow(1px 1px 5px rgb(32, 108, 207));
+@import url("logo.css");
+
+body {
+	text-shadow: none;
 }
 .nav {
+	width: 1300px;
+	margin: 0 auto;
+	margin-top: 50px;
 	list-style-type: none;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 30px;
 }
 .nav li {
-	width: 3ch;
+	width: 400px;
+	height: 200px;
 }
-.nav li img {
-	width: 300px;
+.nav img {
+	width: 100%;
+	opacity: 1;
+}
+.nav a {
+	text-shadow: none;
+	text-decoration: none;
+	color: rgba(255, 255, 255, .7);
+	text-transform: uppercase;
+	font-size: 60px;
+
+}
+.nav span {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: -140px;
+}
+.nav a:hover {
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 1px 1px 5px rgb(32, 108, 207);
+	transform: scale(1.5);
+	transition: .5s;
+}
+.nav a:hover img {
+	opacity: .4;
+	transition: opacity 0.5s;
 }
