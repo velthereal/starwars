@@ -59,6 +59,10 @@
 	cursor: pointer;
 	color: #1ba2f6;
 }
+.details .card-header {
+	display: flex;
+	align-items: center;
+}
 .border-info img {
 	width: 300px;
 }
@@ -67,7 +71,7 @@
 }
 ul.card-text li{
 	list-style-type: none;
-	width: 300px;
+	width: 400px;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	line-height: 40px;

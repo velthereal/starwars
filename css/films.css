@@ -20,7 +20,7 @@
    border-color: rgba(var(--bs-info-rgb),var(--bs-border-opacity))!important;
 }
 .card-header{
-	font-size: 1.5em;
+	font-size: 1.3em;
 	word-wrap: normal;
 }
 .number_page {
@@ -67,7 +67,7 @@
 }
 ul.card-text li{
 	list-style-type: none;
-	width: 300px;
+	width: 400px;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	line-height: 40px;
